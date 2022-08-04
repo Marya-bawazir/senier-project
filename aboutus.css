@@ -1,0 +1,293 @@
+
+.ti{ 
+  font-size:30px; 
+  color:#974eca;  
+  text-align:center; 
+  padding:10px; 
+  padding-bottom:10px;
+}
+
+    .Service {
+      margin-left: auto;
+       width: 90%;    
+      }
+
+  .columnS {
+  float: left;
+  width: 25%;
+  padding: 0 5px;
+  }
+  
+  .rowS {  margin-left: auto;
+       width: 90%;
+  }
+  
+
+  .rowS:after {
+  content: "";
+  display: table;
+  clear: both;
+  }
+
+  @media screen and (max-width: 600px) {
+  .columnS {
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+  margin-right: auto;
+  }
+  }
+
+  .cardS {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: justify;
+  background-color: #bcb8bf;
+  color: white ;
+  height: 180px;
+  padding-top: 7px;
+  box-shadow: #974eca 3px 1px 6px  ;
+  }
+  .cardS h3{ text-align:center; }
+  .cardS p{  
+  padding: 10px;
+  text-align: justify;
+  color: white;
+  height: 190px;
+ font-size: 16px; }
+ .vision {
+text-align: center;
+font-size: 27px;
+font-style: italic;
+font-weight: bolder;
+margin: 2%;
+padding: 6px;
+color: rgb(190, 185, 185);
+text-shadow: 2px 6px 10px rgb(224, 222, 222);
+border: none;
+border-radius: 15px;
+background-color: regba(220,220,220,0.541);
+box-shadow:5px 5px 10px -4px rgb(204, 202, 202);
+ }
+
+.subS{text-align: center;
+font-size: 22px;
+font-weight: bold;
+color:rgb(105, 104, 105);
+ }
+
+.logo p {
+color:#974eca;
+margin-right: 5px;
+font-size:40px;
+}
+.cardS p {
+  color:#974eca;
+  margin-right: 5px;
+  font-size:15px;
+  }
+
+.menu{
+background-color:#B57EDC;
+width:100%
+background:#B57EDC;
+overflow:auto;
+margin:right;
+}
+.menu ul{
+margin:0;
+padding:0;
+list-style:none;
+line-height:60px;
+
+}
+.menu li{
+float:right;
+
+
+}
+.menu ul li a{
+background:#f0eaed;
+text-decoration:none;
+width:170px;
+display:block;
+text-align:center;
+color:#751cb5;
+font-size:18px;
+letter-spacing:0.5px;
+
+
+}
+.menu li a:hover{
+color: #640066;
+opacity:0.5;
+font-size:19px;
+
+
+}
+
+ul li ul li{
+float:none;
+}
+
+ul li ul{
+  display:none;
+}
+
+ul li:hover ul{
+display:block;
+position:absolute;
+  
+}
+
+
+
+* { padding: 0;
+ margin: 0;
+ font-family: 'Monospace', sans-serif; 
+ box-sizing:border-box; 
+ transition: .2s linear; 
+}
+
+.MainBox 
+{ background:#ebeaeb;
+border-left: 10px solid #974eca; 
+border-right: 10px solid #974eca;
+padding:5% 5% ; 
+padding-top:12px; 
+margin:40px; 
+border-radius: 30px; 
+
+}
+.MainBox h3{
+text-align:center;
+}
+
+
+input[type=text], textarea    {
+width: 100%;
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+margin-top: 6px;
+margin-bottom: 16px;
+resize: vertical;
+}
+
+input[type=email] {
+width: 100%;
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+margin-top: 6px;
+margin-bottom: 16px;
+resize: vertical;
+   
+
+}
+
+input[type=submit] {
+background-color: #974eca;
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+input[type=submit]:hover {
+background-color: #974eca;
+}
+
+.container {
+border-radius: 5px;
+padding : 20px;
+font-weight:bold;
+}
+#status{
+width:50%
+max-width:100px;
+text-alian:center;
+padding:10px
+margin:0 auto;
+boarder-radius:8px;
+font-weight:bold;
+
+}
+#status.success{
+background-color:rgb(167, 204, 113);
+animation:status 5s ease  forwards;
+}
+#status.Error{
+background-color:rgb(221, 112, 39);
+  animation:status 5s ease  forwards;
+
+}
+@keyframe status{
+0%{
+opacity:1;
+pointer-event:all;
+
+}
+90%{
+opacity:1;
+pointer-event:all;
+
+}
+100%{
+opacity:0;
+pointer-event:none;
+
+}
+}
+
+.row{
+display: flex;
+flex-wrap: wrap; }
+
+ul{
+list-style: none; }
+
+.footer{
+background-color: #B57EDC;
+  padding: 40px 0; }
+
+.footer-col{
+ width: 25%;
+ padding: 0 15px; }
+
+.footer-col h4{
+font-size: 18px;
+color: #ffffff;
+text-transform: capitalize;
+margin-bottom: 35px;
+font-weight: 500;
+position: relative; }
+
+.footer-col h4::before{
+content: '';
+position: absolute;
+left:0;
+bottom: -10px;
+background-color: #ffffff;
+height: 2px;
+box-sizing: border-box;
+width: 50px; }
+
+.footer-col ul li:not(:last-child){
+margin-bottom: 10px; }
+
+.footer-col ul li a{
+font-size: 16px;
+text-transform: capitalize;
+color: #ffffff;
+text-decoration: none;
+font-weight: 300;
+color: #4a4a4a;
+display: block;
+transition: all 0.3s ease; }
+
+.footer-col ul li a:hover{
+color: #ffffff;
+padding-left: 8px;}
